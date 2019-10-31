@@ -1,0 +1,95 @@
+{
+	"id": "ef7fcc80-8714-9ec8-1f75-8ee067af748d",
+	"name": "Django_apis",
+	"description": "",
+	"order": [
+		"9b52d8d1-4a42-9f8c-af8a-98a9542f8cec",
+		"3ab2681a-b23c-b287-eeb4-4cabd8c0900c",
+		"f95cf23c-f172-f363-8ddd-1b25dc528153",
+		"449a525c-5a53-5d3e-e988-dbf55e630125"
+	],
+	"folders_order": [],
+	"folders": [],
+	"owner": "5676330",
+	"hasRequests": true,
+	"requests": [
+		{
+			"id": "3ab2681a-b23c-b287-eeb4-4cabd8c0900c",
+			"name": "http://127.0.0.1:8000/articles/",
+			"description": "",
+			"collectionId": "ef7fcc80-8714-9ec8-1f75-8ee067af748d",
+			"method": "GET",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://127.0.0.1:8000/articles/",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "ef7fcc80-8714-9ec8-1f75-8ee067af748d"
+		},
+		{
+			"id": "449a525c-5a53-5d3e-e988-dbf55e630125",
+			"name": "http://127.0.0.1:8000/articles/1",
+			"description": "",
+			"collectionId": "ef7fcc80-8714-9ec8-1f75-8ee067af748d",
+			"method": "DELETE",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://127.0.0.1:8000/articles/1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "ef7fcc80-8714-9ec8-1f75-8ee067af748d"
+		},
+		{
+			"id": "9b52d8d1-4a42-9f8c-af8a-98a9542f8cec",
+			"name": "http://127.0.0.1:8000/articles/",
+			"description": "",
+			"collectionId": "ef7fcc80-8714-9ec8-1f75-8ee067af748d",
+			"method": "POST",
+			"headers": "Content-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"article\": {\n\t\t\"title\": \"Tital story\",\n\t\t\"description\":\"Based on a real life story\",\n\t\t\"body\": \"What the hell !!\",\n\t\t\"author_id\" : 1\n\t}\n}",
+			"url": "http://127.0.0.1:8000/articles/",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"collection_id": "ef7fcc80-8714-9ec8-1f75-8ee067af748d"
+		},
+		{
+			"id": "f95cf23c-f172-f363-8ddd-1b25dc528153",
+			"name": "http://127.0.0.1:8000/articles/2",
+			"description": "",
+			"collectionId": "ef7fcc80-8714-9ec8-1f75-8ee067af748d",
+			"method": "PUT",
+			"headers": "Content-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"article\": {\n\t\t\"title\": \"Titan story 2\"\n\t}\n}",
+			"url": "http://127.0.0.1:8000/articles/2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"collection_id": "ef7fcc80-8714-9ec8-1f75-8ee067af748d"
+		}
+	]
+}
