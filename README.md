@@ -24,4 +24,4 @@ Steps:
 The server will start running on localhost:8000
 
 You can hit the apis using postman.
-Django_apis.postman_collection.json file is attached in the same directory. You can import the collection in postamn to view all supported APIs.
+Django_apis.postman_collection.json file is attached in the same directory. You can import the collection in postman to view all supported APIs.
