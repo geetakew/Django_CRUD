@@ -1,4 +1,4 @@
-# Django_CRUD
+# Django_CRUD_djangorestframework
 The project contains the code for performing Create, Read, Update, and Delete Operation using Django-rest.
 
 Here, I have created 2 models: Author and Article.
